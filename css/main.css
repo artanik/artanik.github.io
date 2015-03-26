@@ -121,13 +121,6 @@ p {
     padding: 20px;
     max-width: 550px;
 }
-@media only screen and (max-width: 590px) {
-    .wrapper {
-        border: 0;
-        margin: 0;
-        padding: 20px;
-    }
-}
 .header {
     background: #f6f6f6;
     border-top-left-radius: 5px;
@@ -137,6 +130,7 @@ p {
     padding: 20px;
     overflow: hidden;
     line-height: 1;
+    position: relative;
 }
 .header-name {
     float: left;
@@ -236,6 +230,17 @@ p {
 
 
 
+@media only screen and (max-width: 590px) {
+    .wrapper {
+        border: 0;
+        margin: 0;
+        padding: 20px;
+    }
+    .header-name,
+    .header-desc {
+        float: none;
+    }
+}
 
 
 
