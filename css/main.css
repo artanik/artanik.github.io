@@ -204,10 +204,12 @@ p {
 .social-link__vk { background: #41658b; }
 .social-link__tw { background: #00abf0; }
 .social-link__gp { background: #be3308; }
+.social-link__yo { background: #cc181e; }
 .social-link__fb { background: #39579a; }
 .social-link__sp { background: #5EB5DD; }
 .social-link__gh { background: #202020; }
 .social-link__wp { background: #23282d; }
+.social-link__so { background: #f90; }
 
 .block-info-title {
     border-bottom: 1px solid #dfe3e3;
