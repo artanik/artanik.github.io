@@ -205,7 +205,8 @@ p {
 }
 
 .block-info span {
-    color: #999;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .block-info p {
