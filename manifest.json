@@ -1,11 +1,11 @@
 {
   "name": "Artem Anikeev",
-  "short_name": "Artem Anikeev",
+  "short_name": "artanik",
   "lang": "en-US",
   "orientation": "portrait-primary",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f4f5f6",
   "theme_color": "#f4f5f6",
-  "description": "Artem Anikeev Personal Page"
+  "description": "Artem Anikeev (artanik)"
 }
