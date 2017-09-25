@@ -94,33 +94,44 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+   height: 100%;
+}
 
 body {
-    background: #f4f5f6;
-    color: #000;
-    font-family: 'Roboto', arial, sans-serif;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
+   min-height: 100%;
+   background: #f4f5f6;
+   color: #000;
+   font-family: 'Roboto', arial, sans-serif;
+   font-size: 14px;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
+
 a {
     text-decoration: underline;
     color: #3f7bb3;
 }
+
 a:hover {
     text-decoration: none;
 }
+
 p {
     margin: 0 0 20px 0;
 }
+
 .wrapper {
     background: #fff;
     border: 1px solid #dfe3e3;
     border-radius: 5px;
-    margin: 20px auto;
     padding: 20px;
     max-width: 550px;
 }
+
 .header {
     background: #f6f6f6;
     border-top-left-radius: 5px;
@@ -132,22 +143,26 @@ p {
     line-height: 1;
     position: relative;
 }
+
 .header-name {
     float: left;
     font-size: 25px;
     font-weight: bold;
     text-shadow: 1px 1px 0 #fff;
 }
+
 .header-name span {
     color: #999;
     font-size: 16px;
     font-weight: normal;
 }
+
 .header-desc {
     float: right;
     color: #999;
     font-size: 16px;
 }
+
 .header-desc span {
     font-size: 22px;
     font-weight: bold;
@@ -156,40 +171,51 @@ p {
 .block-info {
     margin: 0 0 20px 0;
 }
+
 .block-info ul {
     padding-left: 0;
     list-style: none;
 }
+
 .block-info ul li {
     padding: 5px;
 }
+
 .block-info ul li:target {
    background: #ffb;
 }
+
 .block-info ul li:target a {
    color: #000;
 }
+
 .block-info ul ul {
     margin-top: 5px;
     margin-left: 10px;
     list-style: none;
     padding-left: 0;
 }
+
 .block-info ul ul li {
     padding: 0;
 }
+
 .block-info td {
     padding: 10px;
 }
+
 .block-info span {
     color: #999;
 }
+
 .block-info p {
     margin-left: 10px;
 }
+
 .block-info .light-line {
     margin-bottom: 10px;
 }
+
 .social-link {
     display: inline-block;
     background: #ccc;
@@ -202,6 +228,7 @@ p {
     font-size: 24px;
     text-align: center;
 }
+
 .social-link__vk { background: #41658b; }
 .social-link__tw { background: #00abf0; }
 .social-link__mm { background: #333; }
@@ -240,11 +267,15 @@ p {
 }
 
 @media only screen and (max-width: 590px) {
+   body {
+      align-items: stretch;
+   }
     .wrapper {
         border: 0;
         margin: 0;
         padding: 20px;
     }
+
     .header-name,
     .header-desc {
         float: none;
