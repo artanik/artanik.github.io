@@ -190,19 +190,16 @@ p {
 .block-info .light-line {
     margin-bottom: 10px;
 }
-.social-block {
-    max-width: 260px;
-}
 .social-link {
     display: inline-block;
     background: #ccc;
     color: #fff !important;
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     margin: 2px 1px 2px 0;
-    line-height: 30px;
-    font-size: 16px;
+    line-height: 50px;
+    font-size: 24px;
     text-align: center;
 }
 .social-link__vk { background: #41658b; }
