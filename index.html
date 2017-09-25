@@ -9,6 +9,11 @@
         <link rel="dns-prefetch" href="//artanik.github.io/">
         <link rel="preconnect" href="//artanik.github.io/">
         <link rel="manifest" href="/manifest.json">
+        
+        <meta name="theme-color" content="#f4f5f6">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#f4f5f6">
+        <meta name="msapplication-TileColor" content="#f4f5f6">
+        <meta name="apple-mobile-web-app-capable" content="yes">
 
         <!-- Twitter Card data -->
         <meta name="twitter:card" content="summary">
@@ -114,6 +119,17 @@
                 </p>
             </div>
         </div>
+        
+        <script type="text/javascript">
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+              .register('/sw.js')
+              .then(function() { console.log('Service Worker Registered.'); })
+              .catch(function(err) { console.log('Service Worker Registration Error: ', err); });
+          } else {
+            console.log('Your browser does not support Service Worker.');
+          }
+        </script>
 
         <!--<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
